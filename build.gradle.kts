@@ -5,7 +5,7 @@ plugins {
     application
     jacoco
     checkstyle
-    // alias(libs.plugins.lombok)
+    alias(libs.plugins.lombok)
     alias(libs.plugins.versions)
     alias(libs.plugins.spotless)
     alias(libs.plugins.spring.boot)
